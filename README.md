@@ -36,6 +36,7 @@ FLORA enables a Franka Research 3 (FR3) robot to solve complex, contact-rich man
 | ![Peg Insert Execution](image/peg_insert_dynamic_bg.gif) | ![Box Open Execution](image/box_open_dynamic_bg.gif) |
 | **Learning Process** | **Learning Process** |
 | <video src="../image/real_peg_insert_deep_success_compressed3.mp4" width="320" controls></video> | <video src="../image/real_box_open_learning_process_conpressed_3.mp4" width="320" controls></video> |
+[▶️ Watch Peg Insert Process (MP4)](../videos/real_peg_insert_deep_success_compressed3.mp4)
 
 | Task                   | FLORA (Ours) @ 20 min | SERL (Baseline) @ 60 min |
 | ---------------------- | --------------------- | ------------------------ |
