@@ -34,15 +34,16 @@ FLORA enables a Franka Research 3 (FR3) robot to solve complex, contact-rich man
 | ![Franka Peg Insert Task](image/peg_insert.png) | ![Franka Box Open Task](image/box_open.png) |
 | **Execution Rollout** | **Execution Rollout** |
 | ![Peg Insert Execution](image/peg_insert_dynamic_bg.gif) | ![Box Open Execution](image/box_open_dynamic_bg.gif) |
-| **Learning Process** | **Learning Process** |
-| [▶️ Watch Peg Insert Process (MP4)](image/real_peg_insert_deep_success_compressed3.mp4)| [▶️ Watch Box Open Process (MP4)](image/real_box_open_learning_process_conpressed_3.mp4)    |
+| ****Success Rollout**** | **Success Rollout** |
+| [▶️ Watch Peg Insert Success (MP4)](image/real_peg_insert_deep_success_compressed3.mp4)| [▶️ Watch Box Open Success (MP4)](image/real_box_open_learning_process_conpressed_3.mp4)    |
+
 
 | Task                   | FLORA (Ours) @ 20 min | SERL (Baseline) @ 60 min |
 | ---------------------- | --------------------- | ------------------------ |
-| Franka Peg Insert Deep | **20/20** (100%)      | 0/20 (0%)                |
-| Franka Box Open        | **20/20** (100%)      | 0/20 (0%)                |
+| Franka Peg Insert Deep | **20/20** (100%)  [▶️ Watch Learning Process (MP4)](real_peg_insert_learning_process_flora.mp4)    | 0/20 (0%)        [▶️ Watch Learning Process (MP4)](real_peg_insert_learning_process_serl_1.mp4)         |
+| Franka Box Open        | **20/20** (100%)  [▶️ Watch Learning Process (MP4)](real_box_open_learning_process_flora_1.mp4)     | 0/20 (0%)        [▶️ Watch Learning Process (MP4)](real_box_open_learning_process_serl.mp4)         |
 
-
+The whole learning process of our method and serl can been seen in the 
 ### Ablation Study on Reward Shaping Structure
 
 Our proposed PBRS-Milestone (PBRS-MS) structure significantly outperforms classical PBRS and directly using potential values as rewards, demonstrating faster convergence and higher stability.
